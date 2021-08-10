@@ -1,0 +1,85 @@
+*
+{
+  transition: 200ms;
+}
+.page1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 110px;
+}
+.slogan
+{
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 37px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
+.slogan_yellow
+{
+  color: #FFDB43;
+}
+.info_number
+{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+input[type=text]
+{
+  width: 100%;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+  font-size: 18px;
+  margin-top: 5px;
+  padding-top: 8px;
+}
+input[type=text]:focus
+{
+  outline: none;
+  border-bottom: 1px solid black;
+  opacity: 1;
+}
+
+.continue_div
+{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.continue_btn
+{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  border: none;
+  background: #000000;
+  color: #FFDB43;
+  padding: 15px 45px 15px 45px;
+  border-radius: 500px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

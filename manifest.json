@@ -1,0 +1,22 @@
+{
+    "name": "Demo",
+    "short_name": "Demo",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#6dcdb1",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
